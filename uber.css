@@ -1,0 +1,507 @@
+body{
+    font-family:UberMoveText,  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    margin: 0;
+}
+
+.firstpart{
+    width: 100%;
+    height: 700px;
+
+}
+.homeimage{
+    width: 1508px;
+    height: 740px;
+    margin-top: -60px;
+    float: left;
+
+}
+
+.header{      
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+    width:100%;
+    position: fixed;  
+}
+   
+.left-head{
+    width: 50%;
+    height: 60px;
+    float: left;
+    
+    
+}
+.ham{
+    width: 20px;
+}
+.right-head{
+    width: 50%;
+    height: 60px;
+    float: left;
+    
+}
+.bar1{
+    width: 30px;
+    height: 8px;
+}
+.bar2{
+    padding-top: 5px;
+    width: 30px;
+    height: 8px;
+}
+.bar3{
+    
+        width: 30px;
+        height: 8px;
+    }
+.btn1{
+    margin-top: 23px;
+    margin-left: 45px;
+    background-color: black;
+    width: 21px;
+    height: 3px;
+    border: none;
+}
+.btn2{
+    margin-top: 15px;
+    margin-left: 45px;
+    background-color: black;
+    width: 21px;
+    height: 3px;
+    border: none;
+}
+.btn3{
+    margin-top: 14px;
+    margin-left: 45px;
+    background-color: black;
+    width: 21px;
+    height: 3px;
+    border: none;
+    float: left;
+}
+.uber{
+    margin-left: 84px;
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: -12px;
+}
+.ubertitle{
+    color: black;
+    float: left;
+    margin-left: 153px;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: -77px;
+}
+.login-button{
+    height: 34px;
+    width: 73px;
+    border-radius: 15px;
+    color: black;
+    margin-left: 555px;
+    margin-top: 20px;
+    padding-left: 7px;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: 500;
+}
+.signup-button{
+    height: 34px;
+    width: 73px;
+    border-radius: 15px;
+    color:white;
+    padding-left: 7px;
+    border-color: transparent;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.middlepart{
+float: left;
+}
+.comment{
+float: left;
+margin-top: -490px;
+    margin-left: 54px;
+    font-size: 52px;
+   font-weight:700;
+   z-index: 12px;
+}
+.innertext{
+    float: left;
+    margin-top: -380px;
+    margin-left: 92px;
+    height: 50px;
+    width: 450px;
+    padding-left: 24px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+.location{
+    margin-top: -250px;
+}
+.delivernow{
+    float: left;
+    margin-top: -389px;
+    margin-left: 605px;
+    padding-top: 10px;
+    height: 50px;
+    width: 100px;
+} 
+.deliverbox{
+    float: left;
+   height: 50px;
+   width: 136px;
+    padding-left: 19px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size:16px;
+} 
+.btn{
+    float: left;
+    margin-top: -379px;
+    margin-left: 750px;
+    height: 50px;
+    width: 134px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.orsignin{
+    float: left;
+    margin-top: -300px;
+    margin-left: 64px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.atag{
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.secondpart{
+    width: 100%;
+    height: 570px;
+    background-color:white;
+}
+.secondone{
+    float: left;
+    width: 30%;
+    height: 350px;
+    line-height: 36px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+.secondtwo{
+    float: left;
+    width: 30%;
+    height: 350px;
+    line-height: 36px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 80px;
+    font-family: UberMove, sans-serif;
+}
+.secondthree{
+    float: left;
+    width: 30%;
+    height: 350px;
+    line-height: 36px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.pone{
+    float: left;
+    margin-top: 1px;
+    cursor: pointer;
+
+}
+.atagbusiness{
+    float: left;
+    line-height: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -40px;
+    text-decoration: underline;
+}
+.lastpic{
+    float: left;
+    font-size: 16px;
+    margin-left: -290px;
+    margin-top: 25px;
+    line-height: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.thirdpart{
+    float: left;
+    width: 100%;
+    height: 1400px;
+    background-color: white;
+}
+.head2{
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color:white;
+}
+.h2tag{
+  line-height: 44px;
+  font-family: UberMove, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-left: 52px;
+}
+.h4tag{
+    float: right;
+    margin-top: -60px;
+    line-height: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 17px;
+    margin-right: 50px;
+}
+.mapimage{
+    margin-left: 51px;
+}
+.onesection{
+    float: left;
+    width: 150px;
+    height: 300px;
+    margin-left: 50px;
+}
+.name{
+    line-height: 24px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.twosection{
+    float: left;
+    width: 150px;
+    height: 300px;
+    margin-left: 210px;
+
+}
+.threesection{
+    float: left;
+    width: 150px;
+    height: 300px;
+    margin-left: 210px;
+ 
+}
+.foursection{
+    float: left;
+    width: 150px;
+    height: 300px;
+    margin-left: 210px;
+ 
+}
+.head3{
+    float: left;
+    width: 100%;
+    height: 80px;
+    margin-top: 65px;
+}
+.head3one{
+    line-height: 44px;
+    font-family: UberMove, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-left: 52px;
+}
+.head3two{
+    float: right;
+    margin-right: 24px;
+    margin-top: -61px;
+    line-height: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+.icon1{
+float: left;
+margin-top: -380px;
+margin-left: 62px;
+height: 37px;
+width: 38px;
+background-color: white;
+text-align: center;
+padding-top: 15px;
+cursor: pointer;
+}
+.iconclock{
+    float: left;
+     margin-top: -379px;
+     margin-left: 577px;
+     height: 35px;
+width: 38px;
+background-color: white;
+text-align: center;
+padding-top: 15px;
+ cursor: pointer;
+}
+.lastpart{
+    float: left;
+    width: 100%;
+    height: 655px;
+}
+.lastone{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+.lasttwo{
+    float: left;
+    width: 50%;
+    height: 500px; 
+}
+.ubereatslogo{
+    font-family: Roboto, helvetica neue, helvetica, arial, sans-serif;
+    margin-left: 155px;
+    margin-top: 110px;
+}
+.downloadapp{
+    float: left;
+    margin-top: 169px;
+    margin-left: 155px;
+    cursor: pointer;
+
+}
+.googleplay{
+    float: left;
+    margin-top: 169px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+.lastlist{
+    float: left;
+    
+}
+.lastlines{
+    font-weight: normal;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.eng{
+    font-weight: normal;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 43px;
+    margin-top: -25px;  
+}
+.lastlist1{
+    float: left;
+    margin-left: 115px;
+}
+.footer{
+    margin-left: 155px;
+    cursor: pointer;
+}
+.icontwitter{
+    margin-left: 35px;
+    margin-top: -21px;
+    cursor: pointer;
+}
+.iconinsta{
+    margin-left: 75px;
+    margin-top: -42px;
+    cursor: pointer;
+}
+.lines{
+    margin-top: -17px;
+    margin-left: 645px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+.lines1{
+    margin-top: -42px;
+    margin-left: 770px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+.lines2{
+    margin-left: 850px;
+    margin-top: -42px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+}
+.lines3{
+    margin-left: 933px;
+    margin-top: -41px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer; 
+}
+.lines4{
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 392px;
+}
+.lines5{
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 718px;
+    margin-top: -42px;
+
+}
+.lines6{
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 805px;
+    margin-top: -42px;
+ 
+}
+.lines7{
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 832px;
+    margin-top: -41px;   
+}
+.lines8{
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 937px;
+    margin-top: -42px;
+}
+.lines9{
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 1021px;
+    margin-top: -41px;
+}
+
+
+
+
+
+
