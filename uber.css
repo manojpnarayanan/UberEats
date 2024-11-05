@@ -61,6 +61,7 @@ body{
     width: 21px;
     height: 3px;
     border: none;
+    cursor:pointer;
 }
 .btn2{
     margin-top: 15px;
@@ -69,6 +70,7 @@ body{
     width: 21px;
     height: 3px;
     border: none;
+    cursor:pointer;
 }
 .btn3{
     margin-top: 14px;
@@ -78,6 +80,7 @@ body{
     height: 3px;
     border: none;
     float: left;
+    cursor:pointer;
 }
 .uber{
     margin-left: 84px;
@@ -104,6 +107,7 @@ body{
     border-color: transparent;
     font-size: 15px;
     font-weight: 500;
+    cursor:pointer;
 }
 .signup-button{
     height: 34px;
@@ -116,6 +120,7 @@ body{
     font-size: 14px;
     font-weight: 500;
     margin-left: 12px;
+    cursor:pointer;
 }
 .middlepart{
 float: left;
